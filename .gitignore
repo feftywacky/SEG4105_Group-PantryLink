@@ -1,0 +1,14 @@
+# macOS Finder metadata
+.DS_Store
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+# build output, logs, secrets
+build/
+dist/
+*.log
+.env
+*.db
