@@ -26,3 +26,11 @@ flask --app "app:create_app()" run       # http://127.0.0.1:5000
 - [Software Components](docs/COMPONENTS.md)
 - [System Architecture](docs/ARCHITECTURE.md)
 - [Development Methodology](docs/METHODOLOGY.md)
+
+## Docker
+
+```bash
+docker run --rm -p 8080:8000 feiyulin14/pantrylink:latest   # then open http://localhost:8080
+```
+
+Image: [feiyulin14/pantrylink on Docker Hub](https://hub.docker.com/r/feiyulin14/pantrylink) (tags `1.0`, `latest`; linux/amd64 + linux/arm64).
