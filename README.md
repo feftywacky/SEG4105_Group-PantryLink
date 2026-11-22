@@ -21,3 +21,8 @@ flask --app "app:create_app()" run       # http://127.0.0.1:5000
 | POST | `/api/donations` | Record a donation lot |
 | POST | `/api/orders` | Place an agency order (FEFO allocation) |
 | GET | `/api/alerts/expiring?days=7` | Lots expiring within N days |
+
+## Documentation
+- [Software Components](docs/COMPONENTS.md)
+- [System Architecture](docs/ARCHITECTURE.md)
+- [Development Methodology](docs/METHODOLOGY.md)
